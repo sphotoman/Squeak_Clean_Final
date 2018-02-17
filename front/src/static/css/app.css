@@ -44,9 +44,14 @@ header a {
 }
 
 h1 {
-	margin: 10px 0;
+	margin: 15px 0;
+	font-size: 1em;
 }
-
+h3 {
+	font-size: .9em;
+	text-align: center;
+	font-weight: bolder;
+}
 header a:hover {
 	color: rgb(255,235,59);
 }
@@ -62,6 +67,16 @@ header a:hover {
 .box {
 	float: left;
 	width: 30%;
+	margin: 0 5px;
+	padding: 10px;
+	background: rgba(2,136,209,0.8);
+	box-shadow: 3px solid rgb(1,87,155);
+
+}
+
+.box2 {
+	float: left;
+	width: 60%;
 	margin: 0 5px;
 	padding: 10px;
 	background: rgba(2,136,209,0.8);
@@ -99,4 +114,8 @@ p{
 }
 #background-video {
 	width: 100%;
+}
+.control-label {
+	font-size: .7em;
+	font-weight: bold;
 }

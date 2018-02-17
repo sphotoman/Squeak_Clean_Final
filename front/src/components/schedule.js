@@ -34,8 +34,8 @@ class Schedule extends Component {
   render() {
     return (
       <div className='page schedule'>
-        <div className="bootstrap-iso">
-        <h1> Book your appointment with our Mobile Detailing Team!</h1>
+        <div className="bootstrap-iso box2">
+        <h3> Book your appointment with our Mobile Detailing Team!</h3>
             <div className="container-fluid washPackages row col-xs-8 col-xs-offset-2">
               <div className="form-group"> 
                 <label className="control-label" htmlFor="date"><br />Step 1: Select a Date: </label>
